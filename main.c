@@ -12,6 +12,8 @@ int twosum() {
 		while (nums[i] + nums[j] != target) {
 			j+=1;
 		}
+
+
 		i+=1;
 		b+=1;
 		j = b;
